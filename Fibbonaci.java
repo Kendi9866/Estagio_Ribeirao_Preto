@@ -1,6 +1,6 @@
 public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int atual = 1,anterior=0,casa = 7, numero;
+		int atual = 1,anterior=0,casa = 8, numero;
 		
 		
 		System.out.print("Digite um numero para verificar se está na sequência de Fibonacci: ");
@@ -12,9 +12,10 @@ public static void main(String[] args) {
 				System.out.print(atual +"|");
 				if(numero == atual) {
 					System.out.println("\nSeu número faz parte da sequência de Fibonacci! Numero escolhido: "+numero);
-					}
-				}if(numero != atual) {
-					System.out.println("\nNao é da sequência de Fibonacci. Numero escolhido: "+numero);
+					}else if(i==casa) {
+						System.out.println("\n Seu numero nao faz parte da sequência de Fibonacci!");
+				}
+					
 				}
 				
 		}
