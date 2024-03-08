@@ -12,6 +12,7 @@ public static void main(String[] args) {
 				System.out.print(atual +"|");
 				if(numero == atual) {
 					System.out.println("\nSeu número faz parte da sequência de Fibonacci! Numero escolhido: "+numero);
+					break;
 					}else if(i==casa) {
 						System.out.println("\n Seu numero nao faz parte da sequência de Fibonacci!");
 				}
